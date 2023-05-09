@@ -1,0 +1,26 @@
+body {
+	text-align: center;
+}
+
+#input, #list {
+	display: inline-block;
+}
+
+#list {
+	padding: 0;
+	list-style-type: none;
+}
+#list span {
+	margin-right: 5px;
+}
+#list .del, #list .dd {
+	color: blue;
+	cursor: pointer;
+}
+#list .del:hover, #list .dd:hover {
+	text-decoration: underline;
+}
+
+#list .gg .span {
+text-decoration: line-through;
+}
